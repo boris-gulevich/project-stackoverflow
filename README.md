@@ -1,6 +1,4 @@
-<img src="http://imgur.com/1ZcRyrc.png" style="float: left; margin: 15px; height: 50px">
 # Predicting Stackoverflow Tags with PySpark and AWS
-<br>
 In this project, select tags for programming questions are predicted from question text. The notebook not only may serve as an example of how particular data science problems may be solved or how different tools may be used for a given purpose, yet also aims to give an approach to creating a set of simple models that could aid users decide on the optimal tags to assign to a question, by suggesting the likely candidates.
 
 The data used to accomplish this goal are the raw dump of all Stack Overflow posts published by mid-March 2018. Given the size of the dataset and so the tools that are used, there are several smaller tasks involved, these are as follows.
