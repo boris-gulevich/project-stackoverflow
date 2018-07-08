@@ -1,4 +1,4 @@
-<h1><img src="http://imgur.com/1ZcRyrc.png" alt="GA logo" width="42px" height="42px" align="left" style="margin:-9px 10px">Predicting Stackoverflow Tags with PySpark and AWS</h1>
+<h1><img src="http://imgur.com/1ZcRyrc.png" alt="GA logo" width="42px" height="42px" align="left" style="margin:-9px 10px">Predicting Stack Overflow Tags with PySpark and AWS</h1>
 <br>
 In this project, select tags for programming questions are predicted from question text. The notebook not only may serve as an example of how particular data science problems may be solved or how different tools may be used for a given purpose, yet also aims to give an approach to creating a set of simple models that could aid users decide on the optimal tags to assign to a question, by suggesting the likely candidates.
 
@@ -19,4 +19,4 @@ There is also an extra part that goes before modelling. It further explores and 
 - pandas, Matplotlib, Seaborn and NetworkX
 - PySpark and AWS (RDS, S3 and EMR)
 
-**The notebook**, [`notebook_stackoverflow.ipynb`](./notebook_stackoverflow.ipynb), contains the Python code and all the plots and Bash and AWS CLI commands. **The bootstrapping script** for the EMR cluster is given in a separate file, [`bootstrap_actions.sh`](./bootstrap_actions.sh).
+**The notebook**, [`notebook_stackoverflow.ipynb`](./notebook_stackoverflow.ipynb), contains the Python code and all the plots and Bash and AWS CLI commands. **The bootstrap script** for the EMR cluster is given in a separate file, [`bootstrap_actions.sh`](./bootstrap_actions.sh).
