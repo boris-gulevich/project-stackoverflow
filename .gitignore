@@ -28,8 +28,6 @@ var/
 *.egg
 
 # PyInstaller
-#  Usually these files are written by a python script from a template
-#  before PyInstaller builds the exe, so as to inject date/other infos into it.
 *.manifest
 *.spec
 
@@ -52,15 +50,15 @@ coverage.xml
 *.mo
 *.pot
 
-# Django stuff:
+# Django
 *.log
 local_settings.py
 
-# Flask stuff:
+# Flask
 instance/
 .webassets-cache
 
-# Scrapy stuff:
+# Scrapy
 .scrapy
 
 # Sphinx documentation
@@ -69,7 +67,7 @@ docs/_build/
 # PyBuilder
 target/
 
-# IPython Notebook
+# IPython
 .ipynb_checkpoints
 
 # pyenv
@@ -91,23 +89,21 @@ ENV/
 # Rope project settings
 .ropeproject
 
-# Keynote files (should hand out pdf)
+# Keynote files
 *.key
-
 
 # General
 *.DS_Store
 .AppleDouble
 .LSOverride
 
-# # Icon must end with two \r
+# Icon must end with two \r
 Icon
 
-
-# # Thumbnails
+# Thumbnails
 ._*
 
-# # Files that might appear in the root of a volume
+# Files that might appear in the root of a volume
 .DocumentRevisions-V100
 .fseventsd
 .Spotlight-V100
@@ -116,9 +112,9 @@ Icon
 .VolumeIcon.icns
 .com.apple.timemachine.donotpresent
 
-# # Directories potentially created on remote AFP share
+# Directories potentially created on remote AFP share
 .AppleDB
 .AppleDesktop
-# Network Trash Folder
-# Temporary Items
- .apdisk
+
+# Temporary items
+.apdisk
