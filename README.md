@@ -4,10 +4,10 @@ In this project, select tags for programming questions are predicted from questi
 
 The data used to accomplish this goal are the raw dump of all Stack Overflow posts published by mid-March 2018. Given the size of the dataset and so the tools that are used, there are several smaller tasks involved, these are as follows.
 
-- first, locally or using a single instance
+- first, locally or using a single instance,
 <br>&nbsp;&nbsp;&nbsp;1. preprocess the raw data that comes as an XML file and write the output to an AWS PostgreSQL database
 <br>&nbsp;&nbsp;&nbsp;2. explore the data and decide on optimal partitioning and size of the cluster to use in modelling
-- then having created a cluster and installed the necessary software
+- then, having created a cluster and installed the necessary software,
 <br>&nbsp;&nbsp;&nbsp;3. process and explore the data further using PySpark to better engineer features and optimise the models
 <br>&nbsp;&nbsp;&nbsp;4. train and test different algorithms and save the results and the best model for each tag
 
