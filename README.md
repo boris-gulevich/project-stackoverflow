@@ -7,7 +7,7 @@ The data used to accomplish this goal are the raw dump of all Stack Overflow pos
 - first, locally or using a single instance
 <br>&nbsp;&nbsp;&nbsp;1. preprocess the raw data that comes as an XML file and write the output to an AWS PostgreSQL database
 <br>&nbsp;&nbsp;&nbsp;2. explore the data and decide on optimal partitioning and size of the cluster to use in modelling
-- having created a cluster and installed the necessary software
+- then having created a cluster and installed the necessary software
 <br>&nbsp;&nbsp;&nbsp;3. process and explore the data further using PySpark to better engineer features and optimise the models
 <br>&nbsp;&nbsp;&nbsp;4. train and test different algorithms and save the results and the best model for each tag
 
@@ -17,7 +17,7 @@ There is also an extra part that goes before modelling. It further explores and 
 
 **Core tools** used throughout the notebook are given below.
 - lxml, re, NLTK, TextBlob, SpaCy and SQLAlchemy
-- pandas, Matplotlib, Seaborn and NetworkX
+- NumPy, pandas, Matplotlib, Seaborn and NetworkX
 - PySpark and AWS (RDS, S3 and EMR)
 
 **The notebook**, [`notebook_stackoverflow.ipynb`](http://nbviewer.jupyter.org/github/boris-gulevich/project-stackoverflow/blob/master/notebook_stackoverflow.ipynb), contains the Python code and all the plots and Bash and AWS CLI commands. **The bootstrap script** for the EMR cluster is given in a separate file, [`bootstrap_actions.sh`](./bootstrap_actions.sh).
