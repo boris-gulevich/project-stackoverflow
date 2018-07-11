@@ -13,7 +13,7 @@ The data used to accomplish this goal are the raw dump of all Stack Overflow pos
 
 There is also an extra part that goes before modelling. It further explores and visualises the data treating the tags and connections between them as a network, to show how more can be learnt from this information by using it in a different way.
 
-**The raw data** were downloaded from [archive.org/details/stackexchange](https://archive.org/details/stackexchange) and provided by the Stack Exchange Network.
+**The raw data** that comes as an XML file were downloaded from [archive.org/details/stackexchange](https://archive.org/details/stackexchange) and provided by the Stack Exchange Network. After the preprocessing, the size of the created PostgreSQL database is about 30 gigabytes.
 
 **Core tools** used throughout the notebook are given below.
 - lxml, re, NLTK, TextBlob, SpaCy and SQLAlchemy
